@@ -18,7 +18,7 @@ body{
 /* nav raleted style */
 nav{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center; 
 }
 .nav-title
