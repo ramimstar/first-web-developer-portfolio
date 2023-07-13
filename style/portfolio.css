@@ -1,3 +1,9 @@
+/* Header related style */
+
+.header{
+    background-color: #FFF8F3;
+}
+
 /* common share style */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -20,6 +26,7 @@ nav{
    display: flex;
    justify-content: space-between;
    align-items: center; 
+   margin:0px 200px ;
 }
 .nav-title
 {
@@ -40,3 +47,12 @@ nav a{
     text-decoration: none;
     color:#474747;
 }
+.banner{
+    padding:30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner .profilepic{
+    width: 584px;
+    height: 676px;
+        }
