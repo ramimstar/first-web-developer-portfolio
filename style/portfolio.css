@@ -2,6 +2,10 @@
 
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-image: flex;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* common share style */
@@ -21,12 +25,25 @@ body{
     padding: 15px 35px;
     
 }
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav raleted style */
+
 nav{
    display: flex;
-   justify-content: space-between;
+   justify-content:space-between;
    align-items: center; 
-   margin:0px 200px ;
+   margin:0px 200px;
 }
 .nav-title
 {
@@ -48,11 +65,47 @@ nav a{
     color:#474747;
 }
 .banner{
-    padding:30px 30px 30px 150px ;
+    padding:30px 30px 0px 150px ;
     display: flex;
     align-items: center;
+}
+.bannerall{
+    max-width: 500px;
 }
 .banner .profilepic{
     width: 584px;
     height: 676px;
+    
         }
+.profilepic{
+    margin-left: auto;
+}
+
+.bannerh1{
+    font-size: 85px;
+font-style: normal;
+font-weight: 700;
+margin-top: 2.5px;
+margin-bottom: 20px;
+}
+.nabberh3{
+font-size: 85px;
+color:#474747 ;
+margin-bottom: 2.5px;
+}
+.banner-text{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 585px;
+    color: var #757575;
+}
+/* main section about */
+
+.About{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin:130px 0;
+
+}
