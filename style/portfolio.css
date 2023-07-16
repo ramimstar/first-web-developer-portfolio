@@ -193,6 +193,9 @@ footer{
 .footer-resume-column{
     width: 50%;
 }
+.social-links a{
+    margin-right: 24px;
+}
 .contact input[type="text"],input[type="email"], textarea{
     display: block;
     margin-bottom: 24px;
