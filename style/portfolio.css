@@ -101,6 +101,11 @@ margin-bottom: 2.5px;
     color: var #757575;
 }
 /* main section about */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
 
 .About{
     padding: 130px;
@@ -108,4 +113,11 @@ margin-bottom: 2.5px;
     background: #FFF8F3;
     margin:130px 0;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
